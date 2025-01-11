@@ -1,33 +1,35 @@
 # 🚀 Docker GO Challenge
 
-Este projeto foi desenvolvido como parte do desafio Docker no curso **Full Cycle 3.0**.
+This project was developed as part of the Docker challenge in the **Full Cycle 3.0** course.
 
-## 📝 Sobre o Desafio
+[Leia em Português 🇧🇷](README.pt-BR.md)
 
-O objetivo do desafio é criar uma imagem Docker que:
+## 📝 About the Challenge
 
-- Seja capaz de executar um programa escrito na linguagem **Go**.
-- Tenha menos de **2 MB** de tamanho.
+The goal of the challenge is to create a Docker image that:
 
-A imagem já está disponível no **Docker Hub** e pode ser facilmente executada na sua máquina. Veja as instruções abaixo.
+- Runs a program written in the **Go** programming language.
+- Has a size of less than **2 MB**.
 
-## 📦 Como Executar
+The image is already available on **Docker Hub** and can be easily executed on your machine. See the instructions below.
 
-Para executar a imagem Docker, basta rodar o seguinte comando no seu terminal:
+## 📦 How to Run
+
+To execute the Docker image, simply run the following command in your terminal:
 
 ```bash
 docker run --rm kelseyjr/fullcycle
 ```
 
-Após a execução, o programa exibirá a seguinte mensagem: **Full Cycle Rocks!!**
+After execution, the program will display the following message: **Full Cycle Rocks!!**
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-- **Go**: Linguagem de programação principal.
-- **Docker**: Plataforma para criação e gerenciamento de contêineres.
+- **Go**: The primary programming language.
+- **Docker**: Platform for creating and managing containers.
 
-## 📤 Publicação no Docker Hub
+## 📤 Published on Docker Hub
 
-A imagem está disponível publicamente no **Docker Hub** e pode ser encontrada no seguinte repositório:
+The image is publicly available on **Docker Hub** and can be found in the following repository:
 
 👉 [kelseyjr/fullcycle](https://hub.docker.com/r/kelseyjr/fullcycle)
